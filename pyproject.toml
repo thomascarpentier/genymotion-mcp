@@ -1,0 +1,13 @@
+[project]
+name = "genymotion-mcp"
+version = "0.1.0"
+description = "Manage Genymotion SaaS instances with IA"
+readme = "README.md"
+requires-python = ">=3.12.6"
+scripts = { "genymotion-mcp" = "server:main" }
+license = { text = "MIT" }
+dependencies = [
+    "dotenv>=0.9.9",
+    "gmsaas>=1.15.0",
+    "mcp[cli]>=1.6.0",
+]
